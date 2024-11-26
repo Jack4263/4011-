@@ -1,11 +1,11 @@
-localJsonFile = "nav.json";
 
-var home = document.querySelector("#home");
-let meet = document.querySelector("#meet");
-let form = document.querySelector("#form");
-let a1 = document.querySelector("#a1");
-let a2 = document.querySelector("#a2");
-let a3 = document.querySelector("#a3");
-let nav = document.querySelector("#navigation");
-home.textContent = "Helps improve blood circulation (new list item)";
-console.log(a3);
+document.getElementById("home").textContent = "Home";
+document.getElementById("meet").textContent = "Meet The Team";
+document.getElementById("form").textContent = "Newsletter";
+document.getElementById("a1").textContent = "";
+document.getElementById("a2").textContent = "Home";
+document.getElementById("a3").textContent = "Home";
+
+
+
+
