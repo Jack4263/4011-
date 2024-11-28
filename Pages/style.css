@@ -1,3 +1,70 @@
-p {
-  color: blue;
+body {
+  background-color: rgba(8, 7, 7, 0.849);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#zerohungerh1 {
+  color: rgba(255, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#ArticleMain {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(255, 0, 0, 0.603);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
+
+section {
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.secArticle {
+  width: 92%;
+  background: rgba(255, 255, 255, 0.644);
+  color: black;
+  padding: 24px 11px;
+  margin: auto auto 20px 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+  width: 47%;
+  height: 400px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.secArticle h3 {
+  color: rgba(0, 128, 0, 0.596);
+}
+.secArticle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 45%;
 }
