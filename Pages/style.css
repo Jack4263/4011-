@@ -68,3 +68,22 @@ section {
   align-items: center;
   height: 45%;
 }
+
+#logo {
+  width: 100px;                
+  height: auto;
+  margin-right: 10px;
+}
+
+#navagation{
+  display: flex;               
+  justify-content: center;     
+  align-items: center;
+  gap: 10px;
+  margin: 25px;
+}
+
+#navagation a {
+  margin-right: 5px;                  
+  color: white;              
+}
