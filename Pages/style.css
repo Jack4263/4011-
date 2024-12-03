@@ -87,3 +87,26 @@ section {
   margin-right: 5px;                  
   color: white;              
 }
+
+#TeamSec article {
+  width: 92%;
+  background: rgba(255, 255, 255, 0.644);
+  color: black;
+  padding: 24px 11px;
+  margin: auto auto 20px 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+  width: 47%;
+  height: 400px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
