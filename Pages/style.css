@@ -3,7 +3,7 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-#zerohungerh1 {
+#zerohunger {
   color: rgba(255, 0, 0, 0.555);
   background-color: rgba(0, 0, 0, 0.342);
   border-radius: 10px;
@@ -15,8 +15,8 @@ body {
   font-family: sans-serif, Arial;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 16px;
   border-radius: 20px;
   border-color: rgba(255, 0, 0, 0.603);
@@ -30,10 +30,11 @@ section {
   margin-top: 10px;
   height: auto;
   width: auto;
-  margin-bottom: 10px;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .secArticle {
@@ -41,23 +42,22 @@ section {
   background: rgba(255, 255, 255, 0.644);
   color: black;
   padding: 24px 11px;
-  margin: auto auto 20px 15px;
   border-radius: 5px;
   box-sizing: border-box;
   float: left;
   width: 47%;
-  height: 400px;
+  height: auto;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: auto;
   padding-left: 11px;
   padding-right: 11px;
   margin-top: 30px;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   margin-left: 15px;
-  border-radius: 20px;
-  box-sizing: border-box;
+  border-radius: 10px;
 }
+
 .secArticle h3 {
   color: rgba(0, 128, 0, 0.596);
 }
@@ -66,24 +66,36 @@ section {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  height: 45%;
+  height: 150px;
 }
 
 #logo {
-  width: 100px;                
+  width: 100px;
   height: auto;
   margin-right: 10px;
 }
 
-#navagation{
-  display: flex;               
-  justify-content: center;     
+#navagation {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   margin: 25px;
 }
 
 #navagation a {
-  margin-right: 5px;                  
-  color: white;              
+  margin-right: 5px;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .secArticle {
+    width: 92%;
+    padding: 24px 11px;
+    margin: auto auto 20px 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  main {
+    margin-top: 60px;
+  }
 }
