@@ -1,0 +1,28 @@
+doctype html
+
+html(lang="en")
+    head 
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Forum
+        script(src="../../nav.js" defer)
+        script(src="form.js" defer)
+        link(rel="stylesheet", href="../style.css")
+    
+    body
+        header 
+            nav#navagation
+            h1#f_title
+        main
+            section 
+                form(method="post", action="#")#myForm
+                fieldset
+                    label(for="Name")#Name
+                    input(type="text", name="Name")
+                    label(for="Email")#Email
+                    input(type="text", name="Email")
+                    input(type="submit", value="Send Message")#sumbit
+                    p.Message
+            
+
+            
