@@ -1,6 +1,4 @@
-
 {
-
   "logo": {
     "src": "/4011-/Assests/Logo.png",
     "alt": "Logo"
@@ -14,6 +12,4 @@
     { "name": "Meet the Team", "url": "/4011-/Pages/team/Team.html" },
     { "name": "Newsletter", "url": "/4011-/Pages/form/form.html" }
   ]
-
 }
-
