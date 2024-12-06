@@ -9,8 +9,8 @@
   "navLinks": [
     { "name": "Home", "url": "/4011-/Pages/home/index.html" },
     { "name": "Zero Hunger", "url": "/4011-/Pages/article1/Article1.html" },
-    { "name": "Clean water and sanitation", "url": "/4011-/Pages/article/Article2.html" },
-    { "name": "Sustainable cities and communities", "url": "/4011-/Pages/article/Article3.html" },
+    { "name": "Clean water and sanitation", "url": "/4011-/Pages/article2/Article2.html" },
+    { "name": "Sustainable cities and communities", "url": "/4011-/Pages/article3/Article3.html" },
     { "name": "Meet the Team", "url": "/4011-/Pages/team/Team.html" },
     { "name": "Newsletter", "url": "/4011-/Pages/form/form.html" }
   ]
