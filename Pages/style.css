@@ -122,3 +122,50 @@ section {
   border-radius: 20px;
   box-sizing: border-box;
 }
+
+fieldset {
+  width: 100%;
+  max-width: 400px;
+  max-height: auto;
+  margin: 0 auto;
+  padding:30px;
+  border: 2px solid;
+  border-radius: 5px; 
+  display: block;
+
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  margin: 10px;
+  align-content: flex-start;
+  font-family: sans-serif;
+  
+}
+
+#submit {
+  background-color: #0BDA51;
+  color: #000;
+  font-weight: 700px;
+  font-size: 16px;
+  border: 2px solid #0BDA51;   
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  align-content: flex-start;
+  font-family: sans-serif;
+}
+
+#f_title {
+  font-family: sans-serif;
+}

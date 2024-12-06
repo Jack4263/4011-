@@ -9,6 +9,7 @@ fetch("form.json")
     document.getElementById("Name").textContent = data.Name
     document.getElementById("Email").textContent = data.Email
     document.querySelector(".Message").textContent = data.Message
+    console.log("All the content has been loaded")
   })
   .catch(error => {
     console.error("Error loading the form data:", error);
