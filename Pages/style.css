@@ -10,6 +10,35 @@ body {
   margin-left: 20%;
   margin-right: 20%;
 }
+#DirtyWaterWhy {
+  color: rgba(0, 60, 255, 0.603);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#suswhy {
+  color: rgba(255, 251, 0);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#cleanwater {
+  color: rgba(0, 60, 255, 0.603);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#suscities {
+  color: rgb(255, 251, 0);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
 #ArticleMain {
   font-family: sans-serif, Arial;
@@ -26,6 +55,35 @@ body {
   word-spacing: 6px;
 }
 
+#ArticleMain2 {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(0, 60, 255, 0.603);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
+
+#ArticleMain3 {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(255, 251, 0);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
 section {
   margin-top: 10px;
   height: auto;
@@ -69,6 +127,14 @@ section {
   height: 150px;
 }
 
+#waterimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 92%;
+}
+
 #logo {
   width: 100px;
   height: auto;
@@ -97,6 +163,9 @@ section {
   }
   main {
     margin-top: 60px;
+  }
+  #waterimg {
+    width: 92%;
   }
 }
 
