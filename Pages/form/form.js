@@ -6,6 +6,7 @@ fetch("form.json")
   })
   .then((data) => {
     document.getElementById("f_title").textContent = data.title
+    document.getElementById("f_para").textContent = data.p
     document.getElementById("Name").textContent = data.Name
     document.getElementById("Email").textContent = data.Email
     document.querySelector(".Message").textContent = data.Message
