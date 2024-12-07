@@ -206,21 +206,27 @@ fieldset {
   border: 2px solid;
   border-radius: 5px; 
   display: block;
-
+  box-sizing: border-box;
+  text-align: center;
 }
 
 input {
   display: block;
-  width: 95%;
+  width: 100%;
   padding: 10px;
-  margin: 0 5px;
+  margin: 15px auto;
+  box-sizing: border-box;  
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  text-align: left;
 }
 
 label, input {
-  display: block;
-  width: 100%;
-  margin: 10px;
-  align-content: flex-start;
+
   font-family: sans-serif;
   
 }
@@ -238,6 +244,8 @@ label, input {
   margin: 10px;
   align-content: flex-start;
   font-family: sans-serif;
+  margin: 10px auto;          /* Ensures the submit button is centered */
+  text-align: center;
 }
 
 #f_title {
