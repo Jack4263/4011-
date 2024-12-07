@@ -173,13 +173,10 @@ section {
   width: 92%;
   background: rgba(255, 255, 255, 0.644);
   color: black;
-  padding: 24px 11px;
-  margin: auto auto 20px 15px;
   border-radius: 5px;
-  box-sizing: border-box;
   float: left;
   width: 47%;
-  height: 400px;
+  height: 25%;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 11px;
@@ -189,7 +186,15 @@ section {
   margin-bottom: 20px;
   margin-left: 15px;
   border-radius: 20px;
-  box-sizing: border-box;
+}
+
+#TeamImage{
+  transform: scale(0.75);
+  border-radius: 50%;
+}
+
+#role{
+  font-size: large;
 }
 
 fieldset {
