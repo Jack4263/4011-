@@ -1,3 +1,19 @@
 {
-    
+    "title": "Meet our Team",
+    "member1": "Bea",
+    "beapfp": "beapfp.jpg",
+    "bearole": "Developer of home page",
+    "bealink": "https://github.com/tosmatosoup",
+    "member2": "Jack",
+    "jackpfp": "jackpfp.jpg",
+    "jackrole": "Developer of article pages",
+    "jacklink": "https://github.com/Jack4263",
+    "member3": "Saeedkhaled",
+    "spfp": "spfp.jpg",
+    "srole": "Developer of form page",
+    "slink": "https://github.com/inverse-01",
+    "member4": "Luke",
+    "lukepfp": "lukepfp.jpg",
+    "lukerole": "Developer of this page",
+    "lukelink": "https://github.com/Lenglish31"
 }
