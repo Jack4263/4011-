@@ -251,3 +251,17 @@ label, input {
 #f_title {
   font-family: sans-serif;
 }
+
+#TeamMain p {
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+#TeamMain h3 {
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+#TeamMain a {
+  font-size: large;
+}

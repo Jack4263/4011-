@@ -6,6 +6,7 @@
     <title>Forum</title>
     <script src="../../nav.js" defer></script>
     <script src="form.js" defer></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
@@ -16,15 +17,16 @@
     </header>
     <main>
       <section> 
-        <form method="post" action="#" id="myForm"></form>
-        <fieldset>
-          <label for="Name" id="Name"></label>
-          <input type="text" name="Name" required placeholder="Enter your name">
-          <label for="Email" id="Email"></label>
-          <input type="text" name="Email" required placeholder="Enter your email">
-          <input type="submit" value="Subscribe" id="submit">
-          <p class="Message"></p>
-        </fieldset>
+        <form method="post" action="#" id="myForm">
+          <fieldset>
+            <label for="Name" id="L_Name"></label>
+            <input type="text" name="Name" required placeholder="Enter your name" id="Name">
+            <label for="Email" id="L_Email"></label>
+            <input type="text" name="Email" required placeholder="Enter your email" id="Email">
+            <input type="submit" value="Subscribe" id="submit">
+            <p class="Message"></p>
+          </fieldset>
+        </form>
       </section>
     </main>
   </body>

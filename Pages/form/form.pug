@@ -7,6 +7,7 @@ html(lang="en")
         title Forum
         script(src="../../nav.js" defer)
         script(src="form.js" defer)
+        script(type="text/javascript", src="https://cdn.emailjs.com/dist/email.min.js")
         link(rel="stylesheet", href="../style.css")
     
     body
@@ -17,13 +18,13 @@ html(lang="en")
         main
             section 
                 form(method="post", action="#")#myForm
-                fieldset
-                    label(for="Name")#Name
-                    input(type="text", name="Name", required , placeholder="Enter your name")
-                    label(for="Email")#Email
-                    input(type="text", name="Email", required , placeholder="Enter your email")
-                    input(type="submit", value="Subscribe")#submit
-                    p.Message
+                    fieldset
+                        label(for="Name")#L_Name
+                        input(type="text", name="Name", required , placeholder="Enter your name")#Name
+                        label(for="Email")#L_Email
+                        input(type="text", name="Email", required , placeholder="Enter your email")#Email
+                        input(type="submit", value="Subscribe")#submit
+                        p.Message
             
 
             
