@@ -1,0 +1,15 @@
+{
+  "logo": {
+    "src": "../Assests/Logo.png",
+    "alt": "Logo"
+  },
+
+  "navLinks": [
+    { "name": "Home", "url": "../html/index.html" },
+    { "name": "Zero Hunger", "url": "../html/Article1.html" },
+    { "name": "Clean water and sanitation", "url": "../html/Article2.html" },
+    { "name": "Sustainable cities and communities", "url": "../html/Article3.html" },
+    { "name": "Meet the Team", "url": "../html/Team.html" },
+    { "name": "Newsletter", "url": "../html/form.html" }
+  ]
+}

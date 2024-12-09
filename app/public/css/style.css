@@ -1,0 +1,267 @@
+body {
+  background-color: rgba(8, 7, 7, 0.849);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#zerohunger {
+  color: rgba(255, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#DirtyWaterWhy {
+  color: rgba(0, 60, 255, 0.603);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#suswhy {
+  color: rgba(255, 251, 0);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#cleanwater {
+  color: rgba(0, 60, 255, 0.603);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#suscities {
+  color: rgb(255, 251, 0);
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#ArticleMain {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(255, 0, 0, 0.603);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
+
+#ArticleMain2 {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(0, 60, 255, 0.603);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
+
+#ArticleMain3 {
+  font-family: sans-serif, Arial;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 16px;
+  border-radius: 20px;
+  border-color: rgba(255, 251, 0);
+  border-spacing: 2px;
+  border-style: solid;
+  font-size: medium;
+  word-spacing: 6px;
+}
+section {
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.secArticle {
+  width: 92%;
+  background: rgba(255, 255, 255, 0.644);
+  color: black;
+  padding: 24px 11px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+  width: 47%;
+  height: auto;
+  padding-top: 24px;
+  padding-bottom: auto;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.secArticle h3 {
+  color: rgba(0, 128, 0, 0.596);
+}
+.secArticle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 150px;
+}
+
+#waterimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 92%;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#navagation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 25px;
+}
+
+#navagation a {
+  margin-right: 5px;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .secArticle {
+    width: 92%;
+    padding: 24px 11px;
+    margin: auto auto 20px 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  main {
+    margin-top: 60px;
+  }
+  #waterimg {
+    width: 92%;
+  }
+}
+
+#TeamSec article {
+  width: 92%;
+  background: rgba(255, 255, 255, 0.644);
+  color: black;
+  border-radius: 5px;
+  float: left;
+  width: 47%;
+  height: 25%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+#TeamImage{
+  transform: scale(0.75);
+  border-radius: 50%;
+}
+
+#role{
+  font-size: large;
+}
+
+fieldset {
+  width: 100%;
+  max-width: 400px;
+  max-height: auto;
+  margin: 0 auto;
+  padding:30px;
+  border: 2px solid;
+  border-radius: 5px; 
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px auto;
+  box-sizing: border-box;  
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+label, input {
+
+  font-family: sans-serif;
+  
+}
+
+#submit {
+  background-color: #0BDA51;
+  color: #000;
+  font-weight: 700px;
+  font-size: 16px;
+  border: 2px solid #0BDA51;   
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  align-content: flex-start;
+  font-family: sans-serif;
+  margin: 10px auto;          /* Ensures the submit button is centered */
+  text-align: center;
+}
+
+#f_title {
+  font-family: sans-serif;
+}
+
+#TeamMain p {
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+#TeamMain h3 {
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+#TeamMain a {
+  font-size: large;
+}

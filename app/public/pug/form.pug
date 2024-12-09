@@ -1,0 +1,30 @@
+doctype html
+
+html(lang="en")
+    head 
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Forum
+        script(src="../javascript/nav.js" defer)
+        script(src="../javascript/form.js" defer)
+        script(type="text/javascript", src="https://cdn.emailjs.com/dist/email.min.js")
+        link(rel="stylesheet", href="../css/style.css")
+    
+    body
+        header 
+            nav#navagation
+            h1#f_title
+            p#f_para
+        main
+            section 
+                form(method="post", action="#")#myForm
+                    fieldset
+                        label(for="Name")#L_Name
+                        input(type="text", name="Name", required , placeholder="Enter your name")#Name
+                        label(for="Email")#L_Email
+                        input(type="text", name="Email", required , placeholder="Enter your email")#Email
+                        input(type="submit", value="Subscribe")#submit
+                        p.Message
+            
+
+            
