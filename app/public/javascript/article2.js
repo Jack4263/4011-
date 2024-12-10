@@ -16,4 +16,5 @@ fetch("../Json/Article2.json")
     document.getElementById("para2").textContent = data.Para6;
     document.getElementById("para3").textContent = data.Para7;
     document.getElementById("para4").textContent = data.Para8;
+    document.getElementById("linkZero").textContent = data.linkZero;
   });
