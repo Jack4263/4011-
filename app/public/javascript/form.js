@@ -44,13 +44,22 @@ myForm.addEventListener('submit', (e)=>{
 
 });
 
-const formEl = document.querySelector('#myForm');
+const formEl = document.querySelector('form'); // Ensure you get the correct form
 
-formEl.addEventListener('submit', event =>{
+formEl.addEventListener('submit', event => {
+  event.preventDefault();
 
-    event.preventDefault();
-    const formData = new FormData(formEl);
-    const data = Object.fromEntries(formData)
-    
+  const formData = new FormData(formEl);
+  const data = Object.fromEntries(formData.entries()); // Convert FormData to a plain object
 
+  fetch('https://reqres.in/api/users', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data), // Convert object to JSON
+  })
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
 });
