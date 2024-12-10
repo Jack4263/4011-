@@ -39,7 +39,18 @@ myForm.addEventListener('submit', (e)=>{
     // Error handling if email fails to send
     message.textContent = "Oops! Something went wrong. Please try again later.";
     console.error("Email sending failed:", error);
-
+    
   });
+
+});
+
+const formEl = document.querySelector('#myForm');
+
+formEl.addEventListener('submit', event =>{
+
+    event.preventDefault();
+    const formData = new FormData(formEl);
+    const data = Object.fromEntries(formData)
+    
 
 });
