@@ -154,6 +154,14 @@ section {
   color: white;
 }
 @media only screen and (max-width: 768px) {
+  article{
+    width: 92%;
+    padding: 24px 11px;
+    margin: auto auto 20px 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    align-items: center;
+  }
   .secArticle {
     width: 92%;
     padding: 24px 11px;
