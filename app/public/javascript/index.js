@@ -13,6 +13,7 @@ fetch("../Json/index.json")
     return response.json();
   })
   .then((data) => {
+    document.getElementById("h3trend").textContent = data.h3trend;
     document.getElementById("header1").textContent = data.header1;
     document.getElementById("header2").textContent = data.header2;
     document.getElementById("click1").textContent = data.click1;
