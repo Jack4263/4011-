@@ -18,7 +18,7 @@ fetch("../Json/team.json")
     member1.appendChild(name1);
     const pfp1 = document.createElement("img");
     pfp1.id = "TeamImage"
-    pfp1.src = "https://lenglish.sirv.com/Images/189265920%5B1%5D?w=420&h=420";
+    pfp1.src = "../Assests/beapfp.jpg";
     member1.appendChild(pfp1);
     const role1 = document.createElement("p")
     role1.id = "role";
@@ -36,7 +36,7 @@ fetch("../Json/team.json")
     member2.appendChild(name2);
     const pfp2 = document.createElement("img");
     pfp2.id = "TeamImage"
-    pfp2.src = "https://avatars.githubusercontent.com/u/134334519?v=4";
+    pfp2.src = "../Assests/jackpfp.jpg";
     member2.appendChild(pfp2);
     const role2 = document.createElement("p")
     role2.id = "role";
@@ -54,7 +54,7 @@ fetch("../Json/team.json")
     member3.appendChild(name3);
     const pfp3 = document.createElement("img");
     pfp3.id = "TeamImage"
-    pfp3.src = "https://avatars.githubusercontent.com/u/183644986?v=4";
+    pfp3.src = "../Assests/spfp.jpg";
     member3.appendChild(pfp3);
     const role3 = document.createElement("p")
     role3.id = "role";
@@ -72,7 +72,7 @@ fetch("../Json/team.json")
     member4.appendChild(name4);
     const pfp4 = document.createElement("img");
     pfp4.id = "TeamImage"
-    pfp4.src = "https://avatars.githubusercontent.com/u/189645497?s=400&v=4";
+    pfp4.src = "../Assests/lukepfp.jpg";
     member4.appendChild(pfp4);
     const role4 = document.createElement("p")
     role4.id = "role";
