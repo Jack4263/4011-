@@ -5,31 +5,31 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.sendFile("../html/index.html");
+    res.sendFile(__dirname + "/public/html/index.html");
 });
 
 app.get("/index", (req, res) => {
-    res.sendFile("../html/Team.html");
+    res.sendFile(__dirname + "/public/html/Team.html");
 });
 
 app.get("/team", (req, res) => {
-    res.sendFile("../html/Team.html");
+    res.sendFile(__dirname + "/public/html/Team.html");
 });
 
 app.get("/form", (req, res) => {
-    res.sendFile("../html/form.html");
+    res.sendFile(__dirname + "/public/html/form.html");
 });
 
 app.get("/article1", (req, res) => {
-    res.sendFile("../html/Article1.html");
+    res.sendFile(__dirname + "/public/html/Article1.html");
 });
 
 app.get("/article2", (req, res) => {
-    res.sendFile("../html/Article2.html");
+    res.sendFile(__dirname + "/public/html/Article2.html");
 });
 
 app.get("/article3", (req, res) => {
-    res.sendFile("../html/Article3.html");
+    res.sendFile(__dirname + "/public/html/Article3.html");
 });
 
 
