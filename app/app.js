@@ -21,7 +21,7 @@ app.get("/form", (req, res) => {
 });
 
 app.get("/article1", (req, res) => {
-    res.sendFile("C../html/Article1.html");
+    res.sendFile("../html/Article1.html");
 });
 
 app.get("/article2", (req, res) => {
