@@ -273,3 +273,7 @@ label, input {
 #TeamMain a {
   font-size: large;
 }
+
+footer {
+  margin-top: 100px;
+}

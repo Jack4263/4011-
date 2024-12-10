@@ -44,20 +44,20 @@ myForm.addEventListener('submit', (e)=>{
 
 });
 
-const formEl = document.querySelector('form'); // Ensure you get the correct form
+const formEl = document.querySelector('form');
 
 formEl.addEventListener('submit', event => {
   event.preventDefault();
 
   const formData = new FormData(formEl);
-  const data = Object.fromEntries(formData.entries()); // Convert FormData to a plain object
+  const data = Object.fromEntries(formData.entries()); 
 
   fetch('https://reqres.in/api/users', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data), // Convert object to JSON
+    body: JSON.stringify(data), 
   })
     .then(res => res.json())
     .then(data => console.log(data))
